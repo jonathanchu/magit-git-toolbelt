@@ -1,0 +1,46 @@
+- [ ] ⭐ git-cleanup
+- [ ] git-current-branch
+- [ ] ⭐ git-fixup
+- [ ] ⭐ git-active-branches
+- [ ] git-local-branches
+- [ ] git-local-commits
+- [ ] git-merged / git-unmerged / git-merge-status
+- [ ] git-recent-branches
+- [ ] git-remote-branches
+- [ ] git-repo
+- [ ] git-root
+- [ ] git-initial-commit
+- [ ] ⭐ git-sha
+- [ ] git-stage-all
+- [ ] git-unstage-all
+- [ ] git-update-all
+- [ ] git-workon
+- [ ] ⭐ git-modified
+- [ ] ⭐ git-separator- [ ]
+- [ ]tat
+- [ ] git-committer-info- [ ]
+- [ ]ommands to help novices out
+- [ ] git-drop-local-changes
+- [ ] git-stash-everything
+- [ ] ⭐ git-push-current
+- [ ] git-undo-commit
+- [ ] git-undo-merge
+- [ ]
+- [ ]ommands that simplify scripting. These commands typically only return exit
+- [ ]odes and have no output.
+
+- [ ] git-is-repo
+- [ ] git-is-headless
+- [ ] git-has-local-changes / git-is-clean / git-is-dirty
+- [ ] git-has-local-commits
+- [ ] git-contains / git is-ancestor
+- [ ] git-local-branch-exists
+- [ ] git-remote-branch-exists
+- [ ] git-tag-exists
+- [ ]
+- [ ]dvanced usage:
+
+- [ ] git-assume / git-unassume / git-show-assumed
+- [ ] git-commit-to
+- [ ] git-cherry-pick-to
+- [ ] ⭐ git-delouse
