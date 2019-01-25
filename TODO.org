@@ -1,6 +1,6 @@
-- [ ] ⭐ git-cleanup
-- [ ] git-current-branch
-- [ ] ⭐ git-fixup
+- [X] ⭐ git-cleanup
+- +[ ] git-current-branch+
+- +[ ] ⭐ git-fixup+
 - [ ] ⭐ git-active-branches
 - [ ] git-local-branches
 - [ ] git-local-commits
