@@ -1,4 +1,4 @@
-;;; magit-git-toolbelt.el --- A Magit interface git-toolbelt
+;;; magit-git-toolbelt.el --- A Magit interface for git-toolbelt
 
 ;; Copyright 2019 Jonathan Chu
 
