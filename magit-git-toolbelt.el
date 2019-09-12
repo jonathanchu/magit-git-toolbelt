@@ -57,10 +57,10 @@
   (magit-run-git "cleanup"))
 
 (defun magit-git-toolbelt-initial-commit ()
-  "Prints the initial commit for the repo.
+  "Show the initial commit for the repo.
 \('git initial-commit')"
   (interactive)
-  (print (magit-run-git "initial-commit")))
+  (magit-show-commit (magit-git-string "initial-commit")))
 
 ;;;###autoload
 (eval-after-load 'magit
