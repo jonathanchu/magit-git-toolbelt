@@ -31,20 +31,20 @@ There are still a lot of commands left to integrate into this interface as this 
   - [X] git-local-branches
   - [ ] git-local-commits
   - [ ] git-local-merges
-  - [ ] git-merged / git-unmerged / git-merge-status
+  - [X] git-merged / git-unmerged / git-merge-status
   - [ ] git-branches-containing
-  - [ ] git-recent-branches
-  - [ ] git-remote-branches
+  - [X] git-recent-branches
+  - [X] git-remote-branches
   - [ ] git-remote-tracking-branch
   - [ ] git-repo
   - [ ] git-root
-  - [ ] git-initial-commit
-  - [ ] git-sha
+  - [X] git-initial-commit
+  - [X] git-sha
   - [ ] git-stage-all
   - [ ] git-unstage-all
   - [ ] git-update-all
   - [ ] git-workon
-  - [ ] git-modified
+  - [X] git-modified
   - [ ] git-modified-since
   - [ ] git-separator
   - [ ] git-spinoff
