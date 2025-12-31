@@ -1,0 +1,20 @@
+#+title: magit-git-toolbelt
+#+author: Jonathan Chu
+#+email: me@jonathanchu.is
+
+`magit-git-toolbelt` is an Emacs package that integrates @nvie's git-toolbelt CLI utility into Magit. It provides a transiet menu interface to access `git-toolbelt` commands directly from Emacs without leaving your workflow.
+
+Features include:
+  - Branch management (cleanup merged branches, list recent/local/remote branches)
+  - Commit info (initial commit, current branch, SHA with clipboard copy)
+  - Diff inspection (deltas, merged/unmerged branches)
+  - File status (modified, untracked files)
+  - Actions (undo last commit)
+
+TODO:
+  - include comparison chart with missing features integrations from `git-toolbelt`
+
+Requirements:
+  - Emacs 26.1+
+  - Magit 3.0.0+
+  - git-toolbelt (installed separately)
