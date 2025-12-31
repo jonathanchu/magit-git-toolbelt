@@ -11,10 +11,59 @@ Features include:
   - File status (modified, untracked files)
   - Actions (undo last commit)
 
-TODO:
-  - include comparison chart with missing features integrations from `git-toolbelt`
-
 Requirements:
   - Emacs 26.1+
   - Magit 3.0.0+
   - git-toolbelt (installed separately)
+
+* Feature Status
+
+There are still a lot of commands left to integrate into this interface as this first pass initially aims to integrate the commands that simply return information.
+
+** Everyday helpful commands:
+  - [X] git-cleanup
+  - [X] git-current-branch
+  - [ ] git-main-branch
+  - [ ] git-fixup
+  - [ ] git-fixup-with
+  - [ ] git-active-branches
+  - [ ] git-diff-since
+  - [X] git-local-branches
+  - [ ] git-local-commits
+  - [ ] git-local-merges
+  - [ ] git-merged / git-unmerged / git-merge-status
+  - [ ] git-branches-containing
+  - [ ] git-recent-branches
+  - [ ] git-remote-branches
+  - [ ] git-remote-tracking-branch
+  - [ ] git-repo
+  - [ ] git-root
+  - [ ] git-initial-commit
+  - [ ] git-sha
+  - [ ] git-stage-all
+  - [ ] git-unstage-all
+  - [ ] git-update-all
+  - [ ] git-workon
+  - [ ] git-modified
+  - [ ] git-modified-since
+  - [ ] git-separator
+  - [ ] git-spinoff
+  - [ ] git-wip
+
+** Statistics:
+  - [ ] git-committer-info
+
+** Commands to help novices out:
+  - [ ] git-drop-local-changes
+  - [ ] git-stash-everything
+  - [ ] git-push-current
+  - [X] git-undo-commit
+  - [ ] git-undo-merge
+
+** Advanced usage:
+  - [ ] git-skip / git-unskip / git-show-skipped
+  - [ ] git-commit-to
+  - [ ] git-cherry-pick-to
+  - [ ] git-delouse
+  - [ ] git-shatter-by-file
+  - [ ] git-cleave
