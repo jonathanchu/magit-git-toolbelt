@@ -25,6 +25,11 @@ Requirements:
 
 Then you can access ~magit-git-toolbelt~ from the Magit status menu by typing ~@~ or ~m-x magit-git-toolbelt~.
 
+#+CAPTION: magit-git-toolbelt, git-toolbelt, magit
+#+NAME: Magit Git Toolbelt Screenshot
+[[https://raw.githubusercontent.com/jonathanchu/magit-git-toolbelt/refs/heads/main/screenshots/20260101_magit_git_toolbelt_screenshot.png]]
+/Screenshot of magit-git-toolbelt from the Magit status menu/
+
 * Feature Status
 
 There are still a lot of commands left to integrate into this interface as this first pass initially aims to integrate the commands that simply return information. Some of these commands are covered natively in Magit, so there is not a big need to create the interface to it here unless it offers novel functionality.
