@@ -26,7 +26,7 @@ There are still a lot of commands left to integrate into this interface as this 
   - [ ] git-main-branch
   - [ ] git-fixup
   - [ ] git-fixup-with
-  - [ ] git-active-branches
+  - [X] git-active-branches
   - [ ] git-diff-since
   - [X] git-local-branches
   - [ ] git-local-commits
@@ -35,7 +35,7 @@ There are still a lot of commands left to integrate into this interface as this 
   - [ ] git-branches-containing
   - [X] git-recent-branches
   - [X] git-remote-branches
-  - [ ] git-remote-tracking-branch
+  - [X] git-remote-tracking-branch
   - [ ] git-repo
   - [ ] git-root
   - [X] git-initial-commit
