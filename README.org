@@ -16,6 +16,15 @@ Requirements:
   - Magit 3.0.0+
   - git-toolbelt ([[https://github.com/nvie/git-toolbelt?tab=readme-ov-file#installation-instructions][installed separately]])
 
+* Installation
+
+#+begin_src emacs-lisp
+  (use-package magit-git-toolbelt
+    :ensure t)
+#+end_src
+
+Then you can access ~magit-git-toolbelt~ from the Magit status menu by typing ~@~ or ~m-x magit-git-toolbelt~.
+
 * Feature Status
 
 There are still a lot of commands left to integrate into this interface as this first pass initially aims to integrate the commands that simply return information. Some of these commands are covered natively in Magit, so there is not a big need to create the interface to it here unless it offers novel functionality.
