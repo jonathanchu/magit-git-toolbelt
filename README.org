@@ -29,7 +29,7 @@ There are still a lot of commands left to integrate into this interface as this 
   - [X] git-active-branches
   - [ ] git-diff-since
   - [X] git-local-branches
-  - [ ] git-local-commits
+  - [X] git-local-commits
   - [ ] git-local-merges
   - [X] git-merged / git-unmerged / git-merge-status
   - [ ] git-branches-containing
