@@ -20,7 +20,8 @@ Requirements:
 
 #+begin_src emacs-lisp
   (use-package magit-git-toolbelt
-    :ensure t)
+    :ensure t
+    :after magit)
 #+end_src
 
 Then you can access ~magit-git-toolbelt~ from the Magit status menu by typing ~@~ or ~m-x magit-git-toolbelt~.
