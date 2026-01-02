@@ -72,7 +72,7 @@
    ])
 
 (transient-define-prefix magit-git-toolbelt-branches ()
-  "Branches"
+  "Branches."
   ["Branches"
    ("l" "Local branches" magit-git-toolbelt-local-branches)
    ("b" "Current branch" magit-git-toolbelt-current-branch)
@@ -82,7 +82,7 @@
    ])
 
 (transient-define-prefix magit-git-toolbelt-diff-inspection ()
-  "Diff & Inspection"
+  "Diff & Inspection."
   ["Diff & Inspection"
    ("m" "Modified files" magit-git-toolbelt-modified)
    ("u" "Untracked files" magit-git-toolbelt-untracked)
