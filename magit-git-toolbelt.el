@@ -104,8 +104,7 @@
    ]
   ["Actions"
    ("z" "Undo last commit" magit-git-toolbelt-undo-commit)
-   ]
-  )
+   ])
 
 ;;; Branch Commands
 
@@ -255,11 +254,9 @@
 
 ;;; Integration with Magit
 
-;;;###autoload
-(with-eval-after-load 'magit
-  (transient-append-suffix 'magit-dispatch "!"
-    '("@" "Git Toolbelt" magit-git-toolbelt))
-  (define-key magit-mode-map "@" #'magit-git-toolbelt))
+(transient-append-suffix 'magit-dispatch "!"
+  '("@" "Git Toolbelt" magit-git-toolbelt))
+(define-key magit-mode-map "@" #'magit-git-toolbelt)
 
 (provide 'magit-git-toolbelt)
 
