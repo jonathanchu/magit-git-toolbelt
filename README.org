@@ -2,7 +2,7 @@
 #+author: Jonathan Chu
 #+email: me@jonathanchu.is
 
-~magit-git-toolbelt~ is an Emacs package that integrates [[https://github.com/nvie][@nvie's]] [[https://github.com/nvie/git-toolbelt][git-toolbelt]] CLI utility into [[https://magit.vc/][Magit]]. It provides a transiet menu interface to access ~git-toolbelt~ commands directly from Emacs without leaving your workflow.
+~magit-git-toolbelt~ is an Emacs package that integrates [[https://github.com/nvie][@nvie's]] [[https://github.com/nvie/git-toolbelt][git-toolbelt]] CLI utility into [[https://magit.vc/][Magit]]. It provides a Transient menu interface to access ~git-toolbelt~ commands directly from Emacs without leaving your workflow.
 
 Features include:
   - Branch management (cleanup merged branches, list recent/local/remote branches)
